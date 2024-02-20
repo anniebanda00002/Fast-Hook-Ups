@@ -1,0 +1,590 @@
+*{margin: 0;
+  padding: 0;
+}
+body{margin:0;
+     margin-left: 10px;
+     padding-top: 200px;
+     background: rgb(22, 22, 118)}
+p{margin: 10px;
+  padding: 10px;
+  background:rgb(115, 159, 152);
+  font-weight: bold;
+  color:whitesmoke}
+button{margin:0px;
+       padding: 0px;}
+h3{background-color: rgb(22, 22, 118);
+        margin: 20px;
+        padding: 20px;
+        color:whitesmoke;
+        }
+pre{margin: 0px;
+    padding: 0px;}
+.main_header{background-color: rgb(22, 22, 118);
+             left:0;
+             top:0;
+             right: 0;
+             padding: 10px; 
+             top:0;
+             z-index: 999;
+             position: fixed;}
+.image_logo{width:100px;
+        align-content: center;
+        border-radius: 80%;
+}
+.image_logo:hover{
+        width: 120px;
+}   
+.what_title{
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight:bold ;
+}        
+.logoname{display: inline-block;
+          margin-top: 5px;
+          margin-bottom: 30px;
+          padding: 20px;
+          color:whitesmoke;
+          text-align: center;}  
+.navbar{margin-left: 50px; 
+        text-align: center;
+        color:whitesmoke;
+} 
+.navbar:hover{
+        color:rgba(249, 246, 246, 0.894);
+        font-size: 25px
+       
+
+}
+.navbar:active{
+        color:rgb(200, 228, 143)
+}
+        
+.main_footer{background-color: rgb(22, 22, 118);
+             margin:0;
+             color:whitesmoke;}
+
+.intro{background-color:rgb(22, 22, 118)}
+#introhead{color:brown;
+           font-size:40px;
+           font-weight: bold;
+        }
+.license_photo{
+        width:300px;
+}
+.buttonintro{color: rgb(225, 124, 51);
+            padding: 20px 100px;
+            font-size:40px;
+            font-weight: bold;
+            margin:20px 70px;
+            background-color: rgb(240, 224, 224);
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;}
+#pays{background-color: rgb(115, 159, 152);
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: bold;}
+.buttonintro:hover{color: rgb(202, 163, 134)}
+.buttonintro:active{background-color: rgb(243, 241, 241);}
+.span1{color:rgb(186, 66, 66)}
+.howvideo{width:500px;
+          margin-left: 15%;}
+.mainform{color:whitesmoke;
+        text-align: center;
+        margin:15px auto;
+        margin-left: 15%;
+        background: rgb(115, 159, 152);
+        border-radius: 40px;
+        max-width: 500px;
+        border: 1px solid gray;
+        padding: 30px;
+        box-shadow: 1px 1px 2px rgba(105,105,105,0.325);}
+.wrap{font-size: 30px;
+      margin:5px auto ;
+      padding:12px;
+      }
+.links{padding: 10px;
+       box-sizing: border-box;
+       color: rgb(64, 64, 211);
+       font-size: 30px;
+}
+#our{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+}
+.submit{padding: 30px;
+        margin:5px auto ;
+        color:rgb(114, 29, 193);
+        background-color: rgb(228, 145, 21);
+        border: none;
+        cursor: pointer;
+        font-size:20px;
+        font-weight: bold;
+        border-radius: 20px;
+        }
+.submit:hover{background: rgb(203, 124, 7) ;}
+.submit:active{ background-color: rgb(217, 178, 120);}
+.title1{margin-left: 20%;}
+th,td{
+        text-align: left;
+        color: rgb(64, 64, 211);
+        border-collapse: collapse;
+        margin: 0px;
+}
+
+.table2{
+
+        text-align: start;
+        margin:5px;
+        margin-left: 15%;
+        background: rgb(115, 159, 152);
+        border-radius: 40px;
+        width: 57%;
+        border: 1px solid gray;
+        padding: 30px;
+        box-shadow: 1px 1px 2px rgba(105,105,105,0.325);
+}
+table{
+        border-radius: 3px;
+}
+.past1{margin: 10px;
+        padding: 10px;
+        background-color: rgb(22, 22, 118);
+}
+.top{
+        margin: 10px;
+        padding: 10px;
+}
+.payment{
+        text-align: center;
+        margin:15px auto;
+        margin-left: 20%;
+        background: rgb(115, 159, 152);
+        border-radius: 40px;
+        max-width: 500px;
+        border: 1px solid gray;
+        padding: 30px;
+        box-shadow: 1px 1px 2px rgba(105,105,105,0.325);
+}
+#pay2{
+        background:rgb(115, 159, 152) ;
+        font-size: 25px;
+        font-weight: bold;
+        
+}
+#proceed{
+        background:rgb(115, 159, 152) ;
+        font-size: 25px;
+        font-weight: bold;
+}
+tr,th{
+        border:1px solid #ddd;
+}  
+.inputbox{margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        font-size: 25px;
+        height: 80px;
+        width:75%;
+        
+}
+.pays2{
+        background:rgb(115, 159, 152) ;
+        font-size: 25px;
+        font-weight: bold;
+        color:whitesmoke;
+        text-transform: uppercase;
+
+}
+#mpambapointer{
+        color:rgb(14, 2, 36);
+        font-size: 20px;
+        font-weight: bold;
+}   
+table{
+        border-collapse: collapse;
+        margin-bottom: 10px;
+}
+.vide_grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 14px;
+        padding: 14px;
+}
+.video_item{
+        width: 300px;
+        height: 150px;
+}
+.video_item:hover{
+        width: 400px;
+        height: 200px;
+}
+.title2{
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 222%;
+        color:rgb(186, 66, 66)
+}
+#terms{
+        text-transform: uppercase;
+        background: w;
+}
+.data{
+        text-align: start;
+        padding-bottom: 12px;
+}
+.btn_li{
+        padding: 5px;
+}
+#while{
+        color:rgb(163, 195, 98);
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: uppercase;
+}
+.mailto{
+        padding-top: 10px;
+        
+}
+.mailto:hover{
+        font-size: 20px;
+}
+.mailto:active{
+        color:rgb(163, 195, 98);
+}
+#datadot{
+        text-align: center;
+      
+}
+#fasthook{
+        color: rgb(130, 11, 11);
+        font-weight: bold;
+}
+#hook2{
+        text-transform: uppercase;
+
+}
+#thank{
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        color: rgb(243, 188, 150);
+
+}
+#about{
+        text-transform: uppercase;
+        font-weight: bold;
+
+}
+#aboutuscontain{
+        text-align: start;
+        
+
+}
+#links3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        font-size: 25px;
+        height: 80px;
+        width:75%;
+}
+#links4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        font-size: 25px;
+        height: 80px;
+        width:75%;
+}
+
+th, td {
+        text-align: start;
+        color: whitesmoke;
+        border: 2px solid #26c482;
+        border-collapse: collapse;
+        margin: 0px;
+         
+    }
+.mainhead{
+        width:100%;
+}
+
+@media only screen and (max-width: 725px) {
+
+        .image_logo {
+                width: 40px;
+                align-content: start;
+                border-radius: 80%;
+            }
+      
+        .top{
+                padding: 3px;
+            
+        }
+        .navbar {
+                margin-left: 5px;
+                text-align: start;
+        }
+        .howvideo {
+                width: 300px;
+                margin-left: 9%;
+            }
+        .title1 {
+                margin-left: 9%;
+        }
+        .table2 {
+                margin: 5px;
+                margin-left: 9%;
+                width: 222%;
+                padding: 5px;
+            }
+            .mainform {
+                margin: 5px auto;
+                margin-left: 9%;
+                max-width: 350px;
+                padding: 5px;
+            }
+            .inputbox {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                padding: 5px 10px;
+                font-size: 15px;
+                height: 35px;
+                width: 40%;
+            }
+            #links3{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                padding: 5px 10px;
+                font-size: 15px;
+                height: 35px;
+                width:40%
+            }
+            .links {
+                padding: 3px;
+                box-sizing: border-box;
+                color: rgb(64, 64, 211);
+                font-size: 15px;
+            }
+            .video_item {
+                width: 150px;
+                height: 75px;
+            }
+            .vide_grid{
+                display: grid;
+                grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+                gap: 7px;
+                padding: 7px;
+        }
+        .buttonintro{
+                padding: 5px 50px;
+                font-size:20px;
+                margin:10px 35px;
+        }
+        h3 {
+
+                margin: 5px;
+                padding: 10px;
+           
+              }
+        #our{
+                font-size: 15px;
+        }
+
+        .title2 {
+                margin: 4px;
+                margin-left: 23%;
+                width: 100%;
+                padding: 5px;
+        }
+        #introhead {
+                font-size: 20px;
+                }
+        .submit {
+                padding: 15px;
+                margin: 2px auto;
+                color: rgb(114, 29, 193);
+                background-color: rgb(228, 145, 21);
+                border: none;
+                cursor: pointer;
+                font-size: 10px;
+                font-weight: bold;
+                border-radius: 20px;
+        }
+        .payment {
+                text-align: center;
+                margin: 15px auto;
+                margin-left: 5%;
+                background: rgb(115, 159, 152);
+                border-radius: 40px;
+                max-width: 300px;
+                border: 1px solid gray;
+                padding: 15px;
+                box-shadow: 1px 1px 2px rgba(105,105,105,0.325);
+            }
+        
+                p {
+                margin: 5px;
+                padding: 5px;
+                background: rgb(115, 159, 152);
+                font-weight: bold;
+                color: whitesmoke;
+                }
+                .main_header{background-color: rgb(22, 22, 118);
+                        left:0;
+                        top:0;
+                        right: 0;
+                        padding: 10px; 
+                        top:0;
+                        z-index: 999;
+                        position: fixed;
+                }
+                table{
+                        width:90%;
+                }
+                .what_title{
+                        font-size: 13px;
+                }
+                #pays{
+                        font-size: 13px;
+                }
+        }
+
+
+
+@media only screen and (max-width:900px) {
+
+        .image_logo {
+                width: 40px;
+                align-content: start;
+                border-radius: 80%;
+        }
+        .top{
+                padding: 3px;
+                margin-top: 8px;
+        
+        }
+        .navbar {
+                margin-left: 5px;
+                text-align: start;
+        }
+        .howvideo {
+                width: 300px;
+                margin-left: 7%;
+        }
+        .title1 {
+                margin-left: 7%;
+        }
+        .table2 {
+                margin: 5px;
+                margin-left: 1%;
+                width: 222%;
+                padding: 5px;
+        }
+        .mainform {
+                margin: 5px auto;
+                margin-left: 7%;
+                max-width: 350px;
+                padding: 5px;
+        }
+        .inputbox {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                padding: 5px 10px;
+                font-size: 15px;
+                height: 35px;
+                width: 40%;
+        }
+        #links3{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                padding: 5px 10px;
+                font-size: 15px;
+                height: 35px;
+                width:40%
+        }
+        .links {
+                padding: 3px;
+                box-sizing: border-box;
+                color: rgb(64, 64, 211);
+                font-size: 15px;
+        }
+        .video_item {
+                width: 150px;
+                height: 75px;
+        }
+        .vide_grid{
+                display: grid;
+                grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+                gap: 7px;
+                padding: 7px;
+        }
+        .buttonintro{
+                padding: 5px 50px;
+                font-size:20px;
+                margin:10px 35px;
+        }
+        h3 {
+
+                margin: 5px;
+                padding: 10px;
+        
+        }
+        #our{
+                font-size: 15px;
+        }
+        #introhead {
+                font-size: 20px;
+                }
+        .submit {
+                padding: 15px;
+                margin: 2px auto;
+                color: rgb(114, 29, 193);
+                background-color: rgb(228, 145, 21);
+                border: none;
+                cursor: pointer;
+                font-size: 10px;
+                font-weight: bold;
+                border-radius: 20px;
+        }
+        .payment {
+                text-align: center;
+                margin: 15px auto;
+                margin-left: 5%;
+                background: rgb(115, 159, 152);
+                border-radius: 40px;
+                max-width: 300px;
+                border: 1px solid gray;
+                padding: 15px;
+                box-shadow: 1px 1px 2px rgba(105,105,105,0.325);
+        }
+        
+        p {
+                margin: 5px;
+                padding: 5px;
+                background: rgb(115, 159, 152);
+                font-weight: bold;
+                color: whitesmoke;
+        } 
+        .main_header{background-color: rgb(22, 22, 118);
+                left:0;
+                top:0;
+                right: 0;
+                padding: 10px; 
+                top:0;
+                z-index: 999;
+                position: fixed;
+        }
+        .what_title{
+                font-size: 15px;
+
+        }
+        #pays{
+                font-size: 15px;
+        }
+
+        }
+
