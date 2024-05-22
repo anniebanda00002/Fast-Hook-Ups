@@ -91,10 +91,8 @@ pre{margin: 0px;
           margin-left: 15%;}
 .mainform{color:whitesmoke;
         text-align: center;
-        display:flex;
-        justify-content: center;
-        align-items:center;
-        height: 100vh;
+        margin:15px auto;
+        margin-left: 15%;
         background: rgb(115, 159, 152);
         border-radius: 40px;
         max-width: 500px;
@@ -589,4 +587,3 @@ th, td {
         }
 
         }
-
